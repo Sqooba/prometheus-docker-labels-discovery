@@ -14,7 +14,7 @@ require (
 	github.com/opencontainers/image-spec v1.0.1 // indirect
 	github.com/prometheus/client_golang v1.9.0
 	github.com/prometheus/common v0.15.0
+	github.com/sqooba/go-common v0.0.0-20210312063917-35b2ebfb97ab
 	github.com/stretchr/testify v1.6.1
 	golang.org/x/sys v0.0.0-20201223074533-0d417f636930 // indirect
-	github.com/sqooba/go-common v0.0.0-20210308210041-34f0d28a008b
 )
