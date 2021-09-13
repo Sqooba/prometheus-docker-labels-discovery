@@ -15,7 +15,7 @@ type promHandler struct {
 func newPromFileHandler(config envConfig) (*promHandler, error) {
 
 	if !strings.HasSuffix(config.PrometheusConfigFilePath, ".json") {
-		return nil, fmt.Errorf("file dose not have .json extension")
+		return nil, fmt.Errorf("file does not have .json extension")
 	}
 
 	err := syscall.Access(config.PrometheusConfigFilePath, syscall.O_RDWR)
