@@ -48,7 +48,7 @@ scrape_configs:
 - job_name: 'docker-labels-sd'
   file_sd_configs:
   - files:
-    - 'from_docker_labels.json'
+    - 'from-docker-labels.json'
 ```
 
 ## Configure your services
