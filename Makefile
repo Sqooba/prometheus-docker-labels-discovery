@@ -1,5 +1,5 @@
 
-VERSION=v2.0.0-rc1
+VERSION=v2.0.0
 GOOS=linux
 GOCMD=go
 GOBUILD=$(GOCMD) build
@@ -11,7 +11,7 @@ PACKAGE_PLATFORM=$(BUILD_PLATFORM),linux/arm64,linux/arm/v7
 VERSION_MAJOR=$(shell echo $(VERSION) | cut -f1 -d.)
 VERSION_MINOR=$(shell echo $(VERSION) | cut -f2 -d.)
 BINARY_NAME=prometheus-docker-labels-discovery
-GO_PACKAGE=touilleio/prometheus-docker-labels-discovery
+GO_PACKAGE=sqooba/prometheus-docker-labels-discovery
 DOCKER_REGISTRY=
 GIT_COMMIT=$(shell git rev-parse HEAD)
 GIT_DIRTY=$(shell test -n "`git status --porcelain`" && echo "+CHANGES" || true)
